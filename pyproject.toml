@@ -1,0 +1,128 @@
+[tool.poetry]
+name = "chromagit"
+version = "1.0.0"
+description = "Sistema de Controle de Versão Moderno - ChromaGit VCS com interface rica e colorida"
+authors = ["Marcos Gomes <marcosgomes068@github.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/marcosgomes068/ChromaGit"
+repository = "https://github.com/marcosgomes068/ChromaGit"
+documentation = "https://github.com/marcosgomes068/ChromaGit/docs"
+keywords = ["version-control", "vcs", "git", "chromagit", "cli", "python"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Version Control",
+    "Topic :: Utilities",
+]
+packages = [
+    { include = "chromagit" },
+    { include = "obj" },
+    { include = "cli" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.0.0"
+pathlib2 = { version = "^2.3.0", python = "<3.4" }
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+black = "^22.0.0"
+flake8 = "^5.0.0"
+mypy = "^0.991"
+pre-commit = "^2.20.0"
+pyinstaller = "^5.0.0"
+
+[tool.poetry.group.build.dependencies]
+pyinstaller = "^5.0.0"
+setuptools = "^60.0.0"
+wheel = "^0.37.0"
+twine = "^4.0.0"
+
+[tool.poetry.scripts]
+chromagit = "main:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/marcosgomes068/ChromaGit/issues"
+"Changelog" = "https://github.com/marcosgomes068/ChromaGit/blob/main/CHANGELOG.md"
+"Documentation" = "https://github.com/marcosgomes068/ChromaGit/docs"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+  | obj
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+exclude = [
+    "build/",
+    "dist/",
+    "obj/",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    ".",
+]
+
+[tool.coverage.run]
+source = ["chromagit", "obj", "cli"]
+omit = [
+    "*/tests/*",
+    "*/build/*",
+    "*/dist/*",
+    "build_*.py",
+    "setup.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]

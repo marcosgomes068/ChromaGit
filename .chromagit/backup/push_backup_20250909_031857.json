@@ -1,0 +1,368 @@
+{
+    "repository": {
+        "path": "C:\\Users\\Gabriel\\Documents\\GitHub\\ChromaGit",
+        "branch": "main"
+    },
+    "version": "0.1.0",
+    "commits": [
+        {
+            "message": "Primeiro commit do ChromaGit",
+            "timestamp": "2025-09-09T02:53:10.897978",
+            "author": {
+                "name": null,
+                "email": null
+            },
+            "files": [
+                {
+                    "path": ".git\\COMMIT_EDITMSG",
+                    "hash": "2ed74267a19d9efd6829e0343c29a3b0ffdeadae21a04b6c88b7a0c7e956183b",
+                    "size": 8,
+                    "type": "",
+                    "modified_time": 1757376995.7467642
+                },
+                {
+                    "path": ".git\\FETCH_HEAD",
+                    "hash": "17233d2dc45f6d89b946d8edcd94fc69e1fec1fcaef6370ae8265c3c0ca7afaf",
+                    "size": 103,
+                    "type": "",
+                    "modified_time": 1757382691.5982552
+                },
+                {
+                    "path": ".git\\HEAD",
+                    "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+                    "size": 21,
+                    "type": "",
+                    "modified_time": 1757376855.802624
+                },
+                {
+                    "path": ".git\\config",
+                    "hash": "26440f782e03522b5addf6f9caef1f414e5295581edbef1b6a49c23124c98052",
+                    "size": 398,
+                    "type": "",
+                    "modified_time": 1757376873.1042044
+                },
+                {
+                    "path": ".git\\description",
+                    "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+                    "size": 73,
+                    "type": "",
+                    "modified_time": 1757376853.9745233
+                },
+                {
+                    "path": ".git\\hooks\\applypatch-msg.sample",
+                    "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+                    "size": 478,
+                    "type": ".sample",
+                    "modified_time": 1757376854.000147
+                },
+                {
+                    "path": ".git\\hooks\\commit-msg.sample",
+                    "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+                    "size": 896,
+                    "type": ".sample",
+                    "modified_time": 1757376854.022835
+                },
+                {
+                    "path": ".git\\hooks\\fsmonitor-watchman.sample",
+                    "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+                    "size": 4726,
+                    "type": ".sample",
+                    "modified_time": 1757376854.0477624
+                },
+                {
+                    "path": ".git\\hooks\\post-update.sample",
+                    "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+                    "size": 189,
+                    "type": ".sample",
+                    "modified_time": 1757376854.0684736
+                },
+                {
+                    "path": ".git\\hooks\\pre-applypatch.sample",
+                    "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+                    "size": 424,
+                    "type": ".sample",
+                    "modified_time": 1757376854.0921981
+                },
+                {
+                    "path": ".git\\hooks\\pre-commit.sample",
+                    "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+                    "size": 1649,
+                    "type": ".sample",
+                    "modified_time": 1757376854.1141088
+                },
+                {
+                    "path": ".git\\hooks\\pre-merge-commit.sample",
+                    "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+                    "size": 416,
+                    "type": ".sample",
+                    "modified_time": 1757376854.130585
+                },
+                {
+                    "path": ".git\\hooks\\pre-push.sample",
+                    "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+                    "size": 1374,
+                    "type": ".sample",
+                    "modified_time": 1757376854.146307
+                },
+                {
+                    "path": ".git\\hooks\\pre-rebase.sample",
+                    "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+                    "size": 4898,
+                    "type": ".sample",
+                    "modified_time": 1757376854.1717718
+                },
+                {
+                    "path": ".git\\hooks\\pre-receive.sample",
+                    "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+                    "size": 544,
+                    "type": ".sample",
+                    "modified_time": 1757376854.19644
+                },
+                {
+                    "path": ".git\\hooks\\prepare-commit-msg.sample",
+                    "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+                    "size": 1492,
+                    "type": ".sample",
+                    "modified_time": 1757376854.2130492
+                },
+                {
+                    "path": ".git\\hooks\\push-to-checkout.sample",
+                    "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+                    "size": 2783,
+                    "type": ".sample",
+                    "modified_time": 1757376854.2300365
+                },
+                {
+                    "path": ".git\\hooks\\sendemail-validate.sample",
+                    "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+                    "size": 2308,
+                    "type": ".sample",
+                    "modified_time": 1757376854.2507024
+                },
+                {
+                    "path": ".git\\hooks\\update.sample",
+                    "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+                    "size": 3650,
+                    "type": ".sample",
+                    "modified_time": 1757376854.2675922
+                },
+                {
+                    "path": ".git\\info\\exclude",
+                    "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+                    "size": 240,
+                    "type": "",
+                    "modified_time": 1757376854.2710657
+                },
+                {
+                    "path": ".git\\logs\\HEAD",
+                    "hash": "0664a8ee765bad012d296662e3f36ce68bb877de079a18f87a4c2157d8ae1486",
+                    "size": 366,
+                    "type": "",
+                    "modified_time": 1757376995.7544725
+                },
+                {
+                    "path": ".git\\logs\\refs\\heads\\main",
+                    "hash": "0664a8ee765bad012d296662e3f36ce68bb877de079a18f87a4c2157d8ae1486",
+                    "size": 366,
+                    "type": "",
+                    "modified_time": 1757376995.7544725
+                },
+                {
+                    "path": ".git\\logs\\refs\\remotes\\origin\\HEAD",
+                    "hash": "13b8db43f95397fa774ae83e9a7ecd3f6456c45ac59417231aca16995d06fe09",
+                    "size": 205,
+                    "type": "",
+                    "modified_time": 1757376855.802624
+                },
+                {
+                    "path": ".git\\logs\\refs\\remotes\\origin\\main",
+                    "hash": "08f4378cac5dcad7087e8a4da0ef2e408ead2269caadf4f334f388ea942d0862",
+                    "size": 160,
+                    "type": "",
+                    "modified_time": 1757377012.7914267
+                },
+                {
+                    "path": ".git\\objects\\6e\\ffff642349a69179a77892bc7212a5266ce9c6",
+                    "hash": "a9ebb21c9f6ee55098f993a19badbcdee479698cb571ab00b615268de5456be6",
+                    "size": 4126,
+                    "type": "",
+                    "modified_time": 1757376995.6908917
+                },
+                {
+                    "path": ".git\\packed-refs",
+                    "hash": "71b15b598387198ce8524d013815045f467c01fcbae4865257ddb15be6b477f6",
+                    "size": 112,
+                    "type": "",
+                    "modified_time": 1757376855.7865865
+                },
+                {
+                    "path": ".git\\refs\\heads\\main",
+                    "hash": "025b8fb3feb99797634ac5b26cfbed552fa56773f725bf80a99b332b3d70327a",
+                    "size": 41,
+                    "type": "",
+                    "modified_time": 1757376995.7544725
+                },
+                {
+                    "path": ".git\\refs\\remotes\\origin\\HEAD",
+                    "hash": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4",
+                    "size": 30,
+                    "type": "",
+                    "modified_time": 1757376855.7942984
+                },
+                {
+                    "path": ".git\\refs\\remotes\\origin\\main",
+                    "hash": "025b8fb3feb99797634ac5b26cfbed552fa56773f725bf80a99b332b3d70327a",
+                    "size": 41,
+                    "type": "",
+                    "modified_time": 1757377012.7898777
+                },
+                {
+                    "path": ".gitignore",
+                    "hash": "68f0e9e89b51b8f6178fa382f99a9f0c1f7d5b347055d5455ece30bf5273aac0",
+                    "size": 4895,
+                    "type": "",
+                    "modified_time": 1757376855.852059
+                },
+                {
+                    "path": "LICENSE",
+                    "hash": "1593624813ec89df38f89815ee2043b92be667a3efbd897407eb936e8648fd46",
+                    "size": 1089,
+                    "type": "",
+                    "modified_time": 1757376855.8525264
+                },
+                {
+                    "path": "README.md",
+                    "hash": "c1fa0fbfd1ce47bc986cb73cbe7f962b442e2a2aa094fbd82277a3a52b6e6722",
+                    "size": 11,
+                    "type": ".md",
+                    "modified_time": 1757376855.8525264
+                },
+                {
+                    "path": "main.py",
+                    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "size": 0,
+                    "type": ".py",
+                    "modified_time": 1757377137.7696671
+                },
+                {
+                    "path": "obj\\add.py",
+                    "hash": "5afcc2f8ab113d816189c55d03b0d301cfa96145ddf5fb3e32be31cd6b38518f",
+                    "size": 21484,
+                    "type": ".py",
+                    "modified_time": 1757381998.8237896
+                },
+                {
+                    "path": "obj\\init.py",
+                    "hash": "4280cd69383603087a3d1459a939366019eea3acdc95b385934157ab2053959d",
+                    "size": 7889,
+                    "type": ".py",
+                    "modified_time": 1757382178.3873222
+                },
+                {
+                    "path": "obj\\obj.md",
+                    "hash": "b2ef05d86df938ec94e7d4de54e29c4fb520ff4e72a6cb044d6ba90d054fe53d",
+                    "size": 2586,
+                    "type": ".md",
+                    "modified_time": 1757377615.3177302
+                },
+                {
+                    "path": "pyproject.toml",
+                    "hash": "f2f18855a4299784adc0d8e98684c39f3056ea86bdc99fca977fdaf43a780fd0",
+                    "size": 310,
+                    "type": ".toml",
+                    "modified_time": 1757377211.130324
+                }
+            ],
+            "parent": null,
+            "branch": "main",
+            "hash": "8bffc52b1220d5b2",
+            "stats": {
+                "total_files": 37,
+                "total_size": 70381,
+                "file_types": {
+                    "": 17,
+                    ".sample": 14,
+                    ".md": 2,
+                    ".py": 3,
+                    ".toml": 1
+                }
+            }
+        },
+        {
+            "message": "Adiciona funcionalidades de commit e log",
+            "timestamp": "2025-09-09T02:56:24.034537",
+            "author": {
+                "name": "ChromaGit Developer",
+                "email": "dev@chromagit.com"
+            },
+            "files": [
+                {
+                    "path": "obj\\commit.py",
+                    "hash": "821ddb49a310bb03cc96065256ba0a025d051463542be8168691092625725c6f",
+                    "size": 16018,
+                    "type": ".py",
+                    "modified_time": 1757382776.2421076
+                },
+                {
+                    "path": "obj\\log.py",
+                    "hash": "8d9378b7c036e4f75279f3757c14b7d87718a3614f25199a72a92b130f24a41e",
+                    "size": 6796,
+                    "type": ".py",
+                    "modified_time": 1757382927.7949162
+                }
+            ],
+            "parent": "8bffc52b1220d5b2",
+            "branch": "main",
+            "hash": "df12424e4ab79115",
+            "stats": {
+                "total_files": 2,
+                "total_size": 22814,
+                "file_types": {
+                    ".py": 2
+                }
+            }
+        }
+    ],
+    "packages": {
+        "last_commit": "df12424e4ab79115",
+        "last_update": "2025-09-09T02:56:24.062671"
+    },
+    "staged": [],
+    "metadata": {
+        "created_at": "2025-09-09T02:45:22.309296",
+        "created_by": "ChromaGit Init",
+        "last_modified": "2025-09-09T02:56:24.062678",
+        "last_commit": "df12424e4ab79115",
+        "last_commit_time": "2025-09-09T02:56:24.034537",
+        "total_commits": 2,
+        "last_push": "2025-09-09T03:18:10.055187",
+        "remote_synced": true,
+        "remote_project_name": "ChromaGit"
+    },
+    "settings": {
+        "auto_backup": true,
+        "max_file_size": 104857600,
+        "compress_files": false,
+        "ignore_binary": true
+    },
+    "last_add_operation": {
+        "timestamp": "2025-09-09T02:56:17.257616",
+        "files_count": 2,
+        "total_size": 22814,
+        "duration": 0.06470918655395508
+    },
+    "remote": {
+        "path": "C:\\ChromaGit\\ChromaGit",
+        "last_push": "2025-09-09T03:18:10.055187",
+        "last_push_stats": {
+            "copied": 31,
+            "updated": 0,
+            "skipped": 95,
+            "errors": 0,
+            "total_size": 114444773
+        },
+        "total_pushes": 4,
+        "base_path": "C:\\\\ChromaGit",
+        "project_name": "ChromaGit"
+    }
+}

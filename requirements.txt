@@ -1,0 +1,31 @@
+# ChromaGit Dependencies
+# Core dependencies for ChromaGit VCS System
+
+# Rich library for beautiful terminal output
+rich>=13.0.0
+
+# Standard library modules (included with Python 3.8+)
+# pathlib - Path manipulation
+# argparse - Command line argument parsing  
+# hashlib - SHA-256 hashing
+# json - JSON data handling
+# subprocess - Process execution
+# datetime - Date and time handling
+# shutil - File operations
+# os - Operating system interface
+
+# Development dependencies (optional)
+# Uncomment for development work
+
+# pytest>=7.0.0          # Testing framework
+# pytest-cov>=4.0.0      # Coverage reporting
+# black>=22.0.0           # Code formatting
+# flake8>=5.0.0           # Linting
+# mypy>=0.991             # Type checking
+# pre-commit>=2.20.0      # Pre-commit hooks
+
+# Build dependencies
+# PyInstaller>=5.0.0      # Executable compilation
+# setuptools>=60.0.0      # Package building
+# wheel>=0.37.0           # Wheel building
+# twine>=4.0.0            # PyPI uploading
